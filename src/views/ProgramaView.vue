@@ -29,7 +29,7 @@ function handleGuardar() {
 
 <template>
   <div>
-    <h2>Programas</h2>
+    <h2>Programas crados</h2>
     <Button label="Crear Nuevo" icon="pi pi-plus" @click="handleCreate" />
     <ProgramaList ref="programaListRef" @edit="handleEdit" />
     <ProgramaSave
